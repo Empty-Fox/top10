@@ -401,12 +401,12 @@ h1 {
 
 .size-logo {
     width: 308px;
-    background-color: #FFF;
+    background-color: transparent;
 }
 
 .size-avis {
     width: 200px;
-    background-color: #FFF;
+    background-color: transparent;
     padding: 0 15px;
 }
 
@@ -418,7 +418,7 @@ h1 {
 
 .size-btn {
     width: 190px;
-    background-color: #FFF;
+    background-color: transparent;
 }
 
 #tableau {
@@ -436,7 +436,17 @@ h1 {
     background: #FFFFFF;
     border: 2px solid #7A9D96;
     box-sizing: border-box;
+    transition: all 0.4s linear;
 }
+.blocTab:hover {
+    transform: scale(1.05);
+    background: rgb(250, 242, 215);
+;
+}
+.avis p {
+    font-weight: bolder;
+}
+
 .blocTab_baner {
     margin-top: 15px;
     width: 100%;
@@ -548,9 +558,7 @@ h1 {
 .rank_10 {
     margin-left: 2px;
 }
-.blocTab:first-child {
-    
-    background: #FFFFFF;
+.blocTab:first-child {       
     border: 2px solid #7A9D96;
     box-sizing: border-box;
     box-shadow: 0px 4px 23px #DCAE1D;
@@ -577,6 +585,7 @@ h1 {
     margin: 0;
     margin-top: 5px;
     padding-right: 15px;
+    background-color: transparent;
 }
 
 .note {

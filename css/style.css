@@ -440,8 +440,8 @@ h1 {
 }
 .blocTab:hover {
     transform: scale(1.05);
-    background: rgb(250, 242, 215);
-;
+    background: rgb(232, 245, 242);
+
 }
 .avis p {
     font-weight: bolder;

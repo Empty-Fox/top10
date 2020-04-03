@@ -73,6 +73,10 @@ dd, div, dl, dt, form, li, ol, p, table, td, th, ul {
     text-align: center;
     color: #FFFFFF;
 }
+.logo .a img {
+width: 80%;
+margin-top: -10px;
+}
 .li_special {
     padding-top:0px; 
     width:30%;
@@ -93,7 +97,7 @@ dd, div, dl, dt, form, li, ol, p, table, td, th, ul {
 .L_slogan {
     float: right;
     line-height: 75px;
-    margin-right: 15px;
+    margin-right: 10%;
 }
 
 .TOP_RATE li {
@@ -108,17 +112,18 @@ dd, div, dl, dt, form, li, ol, p, table, td, th, ul {
     box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25);   
 }
 
-.TOP_RATE .title_special {
+
+.TOP_RATE .title_special {   
     margin: 0;
-    margin-top: -110px;
+    margin-top: 0;
     padding: 10px 0 90px 0;
     position: absolute;
     width: 100%;
     background: #DCAE1D;
     color: white;
-    text-transform: uppercase;
-    font-weight: bold;
+    text-transform: lowercase;    
 }
+
 .TOP_RATE a.img {
     width: 70%;
     display: block;
@@ -130,6 +135,7 @@ dd, div, dl, dt, form, li, ol, p, table, td, th, ul {
     width: 90%;
     margin-top: -50px;
     border: 5px solid #7A9D96;
+    background-color: white;
 }
 
 .TOP_RATE .open_link._link {
@@ -209,7 +215,7 @@ dd, div, dl, dt, form, li, ol, p, table, td, th, ul {
 }
 .slogan_header p {
     width: 60%;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 20px;
     line-height: 23px;
 
@@ -226,19 +232,8 @@ color: #000000;
 }
 .TOP_BAR_LANDING {
     background: #7A9D96;
-    border: 1px solid #000000;
 }
-.TOP_RATE .title_special {   
-    margin: 0;
-    margin-top: 0;
-    padding: 10px 0 90px 0;
-    position: absolute;
-    width: 100%;
-    background: #DCAE1D;
-    color: white;
-    text-transform: uppercase;
-    font-weight: bold;
-}
+
 .TOP_BAR_LANDING {
     height: 75px;
 }
@@ -270,6 +265,7 @@ color: #000000;
     margin-left: 17%;
     margin-top: -6%;
     border: none;
+    background-color: transparent;
 }
 .top img{
     margin-top: 50px;
@@ -405,19 +401,19 @@ h1 {
 }
 
 .size-avis {
-    width: 200px;
+    width: 300px;
     background-color: transparent;
     padding: 0 15px;
 }
 
 .size-review {
-    width: 140px;
+    width: 100px;
     background-color: #FFF;
     padding-right: 15px;
 }
 
 .size-btn {
-    width: 190px;
+    width: 120px;
     background-color: transparent;
 }
 
@@ -438,13 +434,48 @@ h1 {
     box-sizing: border-box;
     transition: all 0.4s linear;
 }
+.blocTab p {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
 .blocTab:hover {
     transform: scale(1.05);
     background: rgb(232, 245, 242);
 
 }
 .avis p {
-    font-weight: bolder;
+    font-weight: 500;
+   font-size: 12px;
+   padding-bottom: 30px;
+}
+.avis p:first-child {
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    padding-bottom:10px;
+    text-transform: uppercase;
+}
+#row2 .avis p:first-child, 
+#row3 .avis p:first-child, 
+#row4 .avis p:first-child, 
+#row5 .avis p:first-child, 
+#row6 .avis p:first-child,
+#row7 .avis p:first-child, 
+#row8 .avis p:first-child, 
+#row9 .avis p:first-child, 
+#row10 .avis p:first-child  {
+    padding-top: 20px;
+}
+#row2 .note,
+#row3 .note,
+#row4 .note,
+#row5 .note,
+#row6 .note,
+#row7 .note,
+#row8 .note,
+#row9 .note,
+#row10 .note {
+    margin-top: 20px;
 }
 
 .blocTab_baner {
@@ -518,7 +549,7 @@ h1 {
 .rank_img_right_first {
     display: block;
     position: absolute;
-    width: 24%;
+    width: 15%;
     margin-top: -23px;
     float: right;
     text-align: right;
@@ -526,7 +557,7 @@ h1 {
 .rank_img_right {
     display: block;
     position: absolute;
-    width: 24%;   
+    width: 15%;   
     float: right;
     text-align: right;
     margin-top: -2px;
@@ -536,7 +567,7 @@ h1 {
 .rank_number_first  {
     display: block;
     position: absolute;
-    width: 24%;
+    width: 15%;
     margin-top: -50px;
     margin-left: -3px;
     color: white;
@@ -547,7 +578,7 @@ h1 {
 .rank_number {
     display: block;
     position: absolute;
-    width: 24%;   
+    width: 15%;   
     margin-top: -30px;
     margin-left: -3px;
     color: white;
@@ -577,7 +608,6 @@ h1 {
     float: left;
     margin: 25px 10px 25px 20px;
     width: 200px;
-    border: 1px solid #d3d3d3;
 }
 
 .review {
@@ -596,7 +626,6 @@ h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-weight: 400;
-    margin: 15px 0 10px 0;
     text-align: center;
 }
 
@@ -604,8 +633,7 @@ h1 {
 font-family: Roboto Slab;
 font-style: normal;
 font-weight: bold;
-font-size: 72px;
-line-height: 95px;
+font-size: 59px;
 color: #DCAE1D;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -614,7 +642,7 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     background: #7A9D96;
     border-radius: 30px;
     color: white;
-    font-size: 14px;
+    font-size: 10px;
     display: block;
     padding: 5px 0;
     margin: 0;
@@ -630,13 +658,7 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     color: #2c62a4;
 }
 
-.avis p#titreAvis {
-    font-family: 'Montserrat', sans-serif;
-    margin: 16px 0 5px 30px;
-    font-weight: bold;
-    font-size: 15px;
-    text-transform: uppercase;
-}
+
 
 .avis li {
     list-style: none;
@@ -660,16 +682,17 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border: none;
 }
 
+#row3 .goSite p {
+    padding-left: 5%;
+}
 .goSite p {
-    margin: auto;
     text-align: center;
 }
-
 .btn {
     background: #7A9D96;
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
+    font-size: 12px;
     text-transform: uppercase;
     margin: 70px 20px 10px 0px;
     -webkit-transition: all .2s ease-in;
@@ -680,9 +703,8 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     color: #000000;
     font-weight: 700;    
     text-align: center;    
-    width: 190px;
-    height: 51px;
-    line-height: 51px;
+    width: 120px;
+    line-height: 40px;
     display: block;
     position: relative;
 }
@@ -701,7 +723,7 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .goSite p a {
-    font-size: 13px;
+    font-size: 12px;
     text-align: center;
     color: #20212d;
 }
@@ -824,7 +846,7 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .footer_colonne {
-    float: left;
+    float: right;
     padding: 0 20px;
 }
 
@@ -1274,10 +1296,7 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         margin-bottom: 10px;
     }
 
-    .avis p {
-        font-size: 14px;       
-    }
-
+  
     .avis li {
         line-height: 15px;
     }
@@ -1384,11 +1403,6 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
     .avis {
         margin-bottom: 10px;
-    }
-
-    .avis p#titreAvis {
-        font-size: 14px;
-        margin: 21px 0 1px 0;
     }
 
     .avis li {
@@ -1534,11 +1548,6 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         margin-bottom: 10px;
     }
 
-    .avis p#titreAvis {
-        font-size: 13px;
-        margin: 2px 0 1px 0;
-    }
-
     .avis li {
         line-height: 14px;
     }
@@ -1610,11 +1619,6 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
     .avis {
         margin-bottom: 10px;
-    }
-
-    .avis p#titreAvis {
-        font-size: 12px;
-        margin: 0px 0 1px 0;
     }
 
     .avis li {

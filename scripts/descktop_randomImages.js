@@ -30,8 +30,7 @@ function imagesBlock(){
      
       for (var i = 0; i < 3; i++) {    
         
-        var a = Math.floor(Math.random() * img.length);     
-              
+        var a = Math.floor(Math.random() * img.length);  
         var b = Math.floor(Math.random() * txt.length); 
         
         document.write (`
@@ -57,8 +56,6 @@ function imagesBlock(){
         txt.splice(b,1);  
        
       }; 
-      console.log(img[a][0]) ;
-      console.log(img[a][1]) ;
          
       return false;
 }   

@@ -1,4 +1,4 @@
-function imagesBlock(){   
+function imagesBlockMobile(){   
     var images = new Array(    
         ["images/logo_cdate.png","https://track.backtoblack.xyz/click?pid=5875&offer_id=2155"],    
         ["images/logo_deinseitensprung.png","https://track.strawberryworld.xyz/click?pid=5875&offer_id=4877&l=1585665067"],    
@@ -34,22 +34,18 @@ function imagesBlock(){
         var b = Math.floor(Math.random() * txt.length); 
         
         document.write (`
-        <tr class="blocTab" id="section_blocTab">
-            <td>
-                <div>
-                    <a href="">                                    
-                        <img class="banner"
-                            src ='`+img[a][0]+`'
-                                class="logo-td" alt="logo" width="170">
-                    </a>
-                    <p>`+txt[b]+`</p><a
-                        href="`+img[a][1]+`"
-                        class="btn baner_link"
-                        title="discover now"><span>discover now</span></a>
-                </div>
+        <tr class="blocTab_baner ">
+            <td class="first-td size-logo">
+                <a>
+                    <img src='`+img[a][0]+`' class="image_baner" alt="logo">
+                </a>                    
+            </td>
+            <td class="goSite size-btn">
+                <p>`+txt[b]+`</p>
+                <a href="`+img[a][1]+`" class="btn" title="Zur Seite"><span>Zur Seite</span></a>           
             </td>
         </tr>
-                        `);
+                    `);
                       
         img.splice(a,1);    
        

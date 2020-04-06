@@ -396,30 +396,32 @@ h1 {
 }
 
 .size-logo {
-    width: 308px;
+    width: 20%;
     background-color: transparent;
 }
 
 .size-avis {
-    width: 300px;
+    width: 40%;
     background-color: transparent;
     padding: 0 15px;
 }
-
+#row1 .size-avis {
+    margin-top: -13px;
+}
 .size-review {
-    width: 100px;
+    width: 10%;
     background-color: #FFF;
     padding-right: 15px;
 }
 
 .size-btn {
-    width: 120px;
+    width: 15%;
     background-color: transparent;
 }
 
 #tableau {
     clear: both;
-    width: 75%;
+    width: 80%;
     float: left;
 }
 
@@ -427,6 +429,7 @@ h1 {
     clear: both;
     margin-top: 15px;
     width: 100%;
+    height: 200px;
     float: left;
     position: relative;
     background: #FFFFFF;
@@ -492,28 +495,28 @@ h1 {
 
 .blocTab_baner:first-child {    
    margin-top: 90px;
+   margin-left: 4%;
 }
-.image_baner {
-    width: 100%;
-    float: left;
-    margin: 25px 10px 25px 20px; 
-    border: 5px solid #7A9D96;
-}
-.blocTab_baner .size-logo {
-    width: 50%;
-}
+
+
 .blocTab_baner .size-btn {
-    width: 35%;
+    width: 90%;
     padding-left: 5%;
 }
 .blocTab_baner .btn {
-    width: 100%;
-    height: 80px;
-    line-height: 75px;
+    width: 100%;    
     color: white;
 }
 .table_baner {
     width: 100%;
+    margin-top: -20px;
+}
+.table_baner_h3 {
+    line-height: 100px;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    color:red;
 }
 .first-td {
     position: relative;
@@ -537,7 +540,7 @@ h1 {
     width: 100%;
     line-height: 28px;
     color: white;
-    font-size: 14px;
+    font-size: 12px;
     text-align: left;
     padding-left: 10px;
 }
@@ -549,7 +552,7 @@ h1 {
 .rank_img_right_first {
     display: block;
     position: absolute;
-    width: 15%;
+    width: 20%;
     margin-top: -23px;
     float: right;
     text-align: right;
@@ -557,7 +560,7 @@ h1 {
 .rank_img_right {
     display: block;
     position: absolute;
-    width: 15%;   
+    width: 20%;   
     float: right;
     text-align: right;
     margin-top: -2px;
@@ -567,7 +570,7 @@ h1 {
 .rank_number_first  {
     display: block;
     position: absolute;
-    width: 15%;
+    width: 20%;
     margin-top: -50px;
     margin-left: -3px;
     color: white;
@@ -578,7 +581,7 @@ h1 {
 .rank_number {
     display: block;
     position: absolute;
-    width: 15%;   
+    width: 20%;   
     margin-top: -30px;
     margin-left: -3px;
     color: white;
@@ -606,10 +609,14 @@ h1 {
 
 .logo-td {
     float: left;
-    margin: 25px 10px 25px 20px;
-    width: 200px;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 10px;
+    width: 100%;
 }
-
+#row1 .logo-td {
+    padding-top: 20px;
+}
 .review {
     float: left;
     margin: 0;
@@ -703,7 +710,7 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     color: #000000;
     font-weight: 700;    
     text-align: center;    
-    width: 120px;
+    width: 100%;
     line-height: 40px;
     display: block;
     position: relative;
@@ -734,15 +741,17 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 /*NOTRE SELECTION*/
 #selection {
-    width: 19%;
+    width: 14%;    
     float: right;
     background: white;
     margin-top: 15px;
-    padding: 20px;
+    padding: 10px;
     border: 2px solid #7A9D96;    
     text-align: center;
 }
-
+#section_blocTab {
+    height: 100%;
+}
 #selection div a {
     text-align: center;
 }
@@ -761,17 +770,14 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin-top: 0;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;    
-    letter-spacing: 3px;
     font-style: normal;
     font-weight: bold;
-    font-size: 20px;
-    line-height: 23px;
+    font-size: 14px;
+    line-height: 16px;
     color: #FF0000;
 }
 .banner {
-    width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
+    width: 90%;    
     border: 5px solid #7A9D96;
     box-sizing: border-box;
     margin-top: 20px;
@@ -789,9 +795,9 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 #selection .btn {
-    width: 170px;
+    width: 90%;
     margin: 0 auto 20px auto;
-    font-size: 15px;
+    font-size: 12px;
     height: 45px;
     line-height: 45px;
 }
@@ -829,11 +835,13 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     float: none;
     background: unset;
 }
-
+#footer .footer_best {
+    font-size: 20px;
+}
 #footer_logo {
     font-family: 'Montserrat', sans-serif;
     float: left;
-    width: 19%;
+    width: 29%;
     font-size: 18px;
     font-weight: 800;
     line-height: 20px;
@@ -841,8 +849,8 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 #footer_logo span {
-    font-size: 50px;
-    line-height: 50px;
+    font-size: 30px;
+    line-height: 0px;
 }
 
 .footer_colonne {
@@ -886,13 +894,35 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-size: 12px;
     font-weight: 300;
 }
-
+td {
+    display: block;
+}
+.vector {
+    position: absolute;
+width: 255.5px;
+height: 34.5px;
+left: 100px;
+top: 1072px;
+background: #FF0000;
+}
 /****QUERIES****/
+@media only screen and (max-width: 2560px) {
+    .box1 {
+        padding-left: 22%;
+    }
+}
+@media only screen and (max-width: 1440px) {
+    .box1 {
+        padding-left: 20%;
+    }
+}
 @media only screen and (max-width: 1100px) {
     #footer_logo, .footer_colonne {       
         padding: 20px;
     }
-
+    .box1 {
+        padding-left: 20%;
+    }
     #footer_logo, .footer_colonne {
         width: 40%;
     }
@@ -900,15 +930,35 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         width: 40%;
         margin-top: -230px;
     }
-}
-
-/****QUERIES****/
-@media only screen and (max-width: 1100px) {
+    .blocTab_baner:first-child {
+        margin-top: 15px;
+    }
+    .blocTab_baner {
+        width: 30%;
+        margin-left: 1%;
+    }  
+    .blocTab_baner  .goSite p {
+        padding-top: 30px;
+    }
+    .blocTab_baner .size-logo {
+        width: 90%;
+    }
+    .blocTab_baner .btn {        
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .image_baner {
+        width: 100%;
+        float: left;     
+        border: 5px solid #7A9D96;     
+        margin-top: 50px;
+        margin-left: 4%;
+    }
     .box1 img.quine {       
         margin-left: 17%;       
     }
     .table_baner {
-        display: block;
+        display: block;        
     }
     .TOP_RATE span {
         font-size: 11px;
@@ -932,13 +982,15 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     #tableau {
         width: 100%;
     }
-
+.text {
+    font-size: 12px;
+}
     .size-avis {
-        width: 25%
+        width: 40%
     }
 
     .size-review {
-        width: 20%
+        width: 10%
     }
 
     /*menu hamburger*/
@@ -1080,12 +1132,19 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
     .TOP_RATE .open_link._link {
         font-size: .8rem;
-    }
-    .rank_img_right_first, .rank_number_first, .rank_number, .rank_img_right {
-        width:26.5%;
-    }
+    }   
     .TOP_RATE span {       
         line-height: inherit;
+    }
+    .TOP_RATE .text{
+        font-size: 9px;
+    }
+    .TOP_RATE li {
+        height: 250px;
+    }
+    .box1 img.quine {
+        margin-left: 15%;
+        margin-top: -7%;
     }
     .landing-page .visit {        
         padding: 12px 12px;
@@ -1126,15 +1185,21 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     .landing-page .visit {      
         font-size: 14px;
     }
-    .image_baner {
-        width: 80%;        
-    }
+   
     .midline.TOP_RATE {
         margin-top: -110px;
     }
     .TOP_RATE .title_special {
-        padding: 60px 0 0px 0;
+        padding: 70px 0 20px 0;
+        font-size: 12px;      
     }
+    .li_special .open_link._link  {
+        padding-top: 50px;
+    }
+    .TOP_RATE .li_special {
+        height: 280px;
+    }
+    
     .TOP_RATE li a {
         margin-bottom: 15px;
         margin-top: 10px;
@@ -1142,22 +1207,18 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     .size-review .note {
         margin-top: -20px;
     }
+    .SITE_LIST h2 {
+        font-size: 28px;
+        margin: 0px 0px 40px;
+    }
     #row1 .size-review .note {
         margin-top: -40px;
     }
     #row1 .btn {
         margin: 30px 20px 10px 0px;
     }
-    .size-review {
-        margin-left: -20px;
-    }
-    .size-btn {
-        width: 25%;
-        margin-left: 20px;
-    }
-    .btn {
-        margin: 50px 20px 10px 0px;
-    }
+  
+   
     .wrapper {
         margin: 0 2%;
     }
@@ -1166,37 +1227,15 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         display: none;
     }
 
-    #tableau {
-        width: 100%;
+    .note p span {
+        font-size: 49px;
     }
 
-    .size-logo {
-        width: 20%;
-    }
-
-    .size-avis {
-        width: 25%
-    }
-
-    .size-review {
-        width: 18%
-    }
-
-    .size-btn {
-        width: 25%;
-    }
-
-    .logo-td {
-        width: 100%;
-    }
 
     .avis {
         margin-bottom: 10px;
     }
 
-    .btn {
-        width: 170px;
-    }
 
     .blocTab a:before {
         content: '';
@@ -1207,48 +1246,89 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         bottom: 0;
         background-color: rgba(0, 0, 0, 0);
     }
+    .note p.adj {
+        font-size: 9px;
+    }
+    .size-avis {
+        width: 45%;
+    }
+    .size-logo {
+        width: 15%;
+    }
+    .rank .rank_left{width: 200%;}
 }
 @media only screen and (max-width: 803px) {
     .note p span {
-        font-size: 62px;
+        font-size: 52px;
+    }
+    #row1 .size-review .note {
+        margin-top: -10px;
     }
     .TOP_RATE .open_link._link {
         font-size: .6rem;
     }
-    .btn {
-        width: 150px;
-    }
-    .rank_img_right_first, .rank_number_first, .rank_number, .rank_img_right {
-        width: 25.5%;
-    }
+   
+   
     #row1 .btn {
-        margin: 30px 20px 10px -20px;
+        margin: 30px 20px 10px 0px;
     }
     .btn {
         font-size: 12px;
-        margin-left: -20px;
+       
     }
     .goSite p a {
         margin-left: -20px;
     }
+    .avis p {       
+        font-size: 10px;
+    }
+    .rank_img_right, .rank_number  {
+        width: 19%;
+    }
+    
+    .rank_img_right_first, .rank_number_first {
+        width: 19%;
+    }
+    #row1 .btn {
+        margin: 50px 20px 10px 0px;
+    }
+    .rank_left {       
+        width: 150%;      
+        font-size: 12px;       
+    }
 }
 @media only screen and (max-width: 676px) {
+    .TOP_RATE .title_special {
+        padding: 50px 0 20px 0;
+    }
+    .blocTab {        
+        height: 150px;
+    }
+    .rank_left {
+        width: 180%;       
+    }
+    .blocTab p {       
+        padding-top: 0;
+    }
+    #row1 .avis {       
+        padding-top: 20px;
+    }
+    .size-avis {
+        width: 55%;
+    }
     #header {
         height: 70px
     }
     #row1 .btn {
-        margin: 50px 20px 10px -20px;
+        margin: 40px 0px 0px 0px;
     }
     .SITE_LIST h2 {
         font-size: 22px;       
     }
     .size-btn {
-        width: auto;
+        width: 15%;
     }
-    #logo {
-        padding: 5px 0;
-        width: 215px;
-    }
+    
 
     #menuToggle {
         top: 19px;
@@ -1270,24 +1350,12 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     .bloctab {
         height: 100px;
     }
-
-    .size-logo {
-        width: 34%;
-    }
-
-    .size-avis {
-        width: 29%;
-        padding: 0;
-    }
+    
 
     .size-review {
         display: none;
     }
-
-    .size-btn {
-        width: auto;
-    }
-
+  
     .logo-td {
         margin-left: 10px;
     }
@@ -1305,15 +1373,16 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         font-size: 13px;
     }
 
-    .btn {
-        margin: 70px 20px 10px -20px;
-        width: 163px;
+    .btn {             
         font-size: 13px;
     }
-    .blocTab_baner .btn {        
-        margin: 50px 20px 10px 0px;
+    .image_baner {      
+        margin-left: 2.5%;
     }
-
+    .image_baner {
+        margin-top: 5px;
+    }
+    
     .goSite p {
         margin-left: 0;
         margin-top: 0;
@@ -1326,11 +1395,24 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     #menuToggle ul {
         margin-top: 2px;
     }
+    .blocTab {
+        height: 150px;
+    }
+    .rank_img_right_first, .rank_number_first {
+        width: 18%;
+    }
+    .rank_img_right, .rank_number {
+        width: 18%;
+    }
 }
 
 @media only screen and (max-width: 575px) {
     .header_bg {
         min-height: 268px;
+    }
+    .logo .a img {
+        width: 50%;
+        margin-top: 0px;
     }
     .midline.TOP_RATE {
         margin-top: -80px;
@@ -1344,18 +1426,24 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         font-size: 16px;
     }
     .TOP_RATE .open_link._link {
-        font-size: .4rem;
+        font-size: .8rem;
+    }
+    .box1 img.quine {
+        margin-left: 28%;
+        margin-top: -10%;
+        width: 80px;
     }
     .TOP_RATE span {
         font-size: 0.4rem;
+    }
+    .rank_left {
+        width: 200%;
     }
     .logo .a {        
         margin-left: -20%;
         margin-top: 0;
     }
-    .image_baner {
-        width: 180%;
-    }
+   
     .slogan_header p {
         width: 70%;      
         font-size: 11px;
@@ -1363,19 +1451,20 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         margin-top: -30px;
     }
     .L_slogan {
-        float: left;
-        line-height: 75px;
-        margin-right: 0;
-        font-size: 14px;
-        margin-top: 10px;
-        margin-left: 10%;
+        display: none;
     }
-    .size-avis {
-        width: auto;
+    .TOP_RATE li {  
+        width: 30%;
+        margin-left: 2.5%;
+    }
+    .box1 {
+        padding-left: 0;
+    }
+    .size-avis {      
        padding-left: 20px;
     }
     .rank_img_right_first, .rank_number_first, .rank_number, .rank_img_right {
-        width: 28%;
+        width: 25%;
     }
     .size-btn {       
         margin-left: -10%;
@@ -1397,10 +1486,7 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         padding: 6px 6px;
         font-size: 12px;
     }
-    .logo-td {
-        margin-left: 10px;
-    }
-
+  
     .avis {
         margin-bottom: 10px;
     }
@@ -1420,25 +1506,37 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     .goSite p {
         display: none;
     }
-    .blocTab_baner .goSite {
+
+    .blocTab_baner .goSite p, .blocTab_baner .btn{
         display: block;
+    }
+    .blocTab_baner .size-btn {
+        margin-left: 0;
+    }
+    .image_baner {
+        margin-left: 2%;
     }
     #row1 .btn-mobile {
         display: block;
         margin-top: 52px;
-        margin-left: 20px;
+        margin-left: 30px;
     }
     .btn-mobile {
         display: block;
         margin-top: 72px;
-        margin-left: 20px;
+        margin-left: 30px;
     }
     #menuToggle ul {
         margin-top: 2px;
     }
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 425px) {
+    .logo .a img {
+        width: 35%;
+        margin-top: 10px;
+        margin-left: -35%;
+    }
     .box1 img.quine {
         width: 15%;      
         margin-left: 30%;
@@ -1452,35 +1550,51 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         width: 20%;        
     }
     .rank_img_right {
-        margin-top: -23px;
-        margin-left: 8%;
+        margin-top: -39px;
+        margin-left: 9.5%;
     }
-    .rank_img_right_first{
-        margin-top: -43px;
-        margin-left: 8%;
+    .rank_img_right_first {
+        margin-top: -59px;
+        margin-left: 9.5%;
     }
     .rank_number {
-        font-size: 14px;
-        margin-left: 6%;
-        margin-top: -36px;
+        font-size: 8px;
+        margin-left: 8%;
+        margin-top: -42px;
     }
     .rank_number_first {
-        font-size: 14px;
-        margin-left: 6%;
-        margin-top: -56px;
+        font-size: 8px;
+        margin-left: 8%;
+        margin-top: -64px;
     }
     #row1 .btn-mobile {
-        margin-top: 32px;
-        margin-left: 30px;
+        margin-top: 15px;
+        margin-left: 28px;
     }
     .image_baner {
-        width: 170%;
+        width: 90%;
+        margin-left: 7%;
+        border: 1px solid #7A9D96;
+    }
+    .blocTab_baner .goSite p {
+        padding-top: 10px;
+        font-size: 10px;
+        height: 60px;
+    }
+    .blocTab_baner .btn {
+        font-size: 10px;
+        line-height: 30px;
+    }
+    .table_baner_h3 {
+        line-height: 50px;
+        font-size: 14px;
     }
     .size-btn {
         background-color: transparent;
+        margin-left: -12%;
     }
     .rank_10 {
-        margin-left: 7%;
+        margin-left: 9%;
     }
     .header_bg {
         min-height: 168px;
@@ -1510,7 +1624,7 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
     .rank_left, .rank_img img {
         margin-top: 0px;      
-        width: 100%;
+        width: 225%;
     }
     .rank_left {      
         line-height: 18px;     
@@ -1523,39 +1637,79 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         padding: 10px;
     }
     #footer_logo span {
-        font-size: 40px;
-        line-height: 40px;
+        font-size: 25px;
+        line-height: 0px;
     }
     .TOP_RATE li {       
-        width: 30%;       
+        width: 30%; 
+        margin-left: .5%;      
+        height: 200px;
+        border: 2px solid #7A9D96;
     }
-    .TOP_RATE .li {       
-        width: 30%;       
+    .TOP_RATE img , .blocTab_baner {
+        border: 2px solid #7A9D96;
     }
+   
     .TOP_RATE .li_special {       
-        width: 35%;       
+        width: 35%;      
+        height: 250px; 
+    }
+    .SITE_LIST h2 {
+        font-size: 18px;
+    }
+    .blocTab {
+        height: 140px;
     }
     .box1 {
         padding-left: 2%;
     }
     .logo-td {
-        margin-left: 10px;
-        margin-top: 10px;
-        margin-bottom: 10px;
+        float: left;
+        margin-top: 20%;
+        width: 180%;
+        margin-left: -20%;
+        padding-top: 35%;
     }
 
     .avis {
-        margin-bottom: 10px;
+        margin-bottom: 0;
     }
 
     .avis li {
         line-height: 14px;
     }
+    .avis p {
+        font-size: 9px;
+        padding-bottom: 10px;
+    }
 
     .avis li span {
         font-size: 11px;
     }
-
+    .avis p:first-child {
+        font-size: 12px;
+        padding-bottom: 5px;        
+    }
+ 
+    #row1 .logo-td {
+        margin-top: -25px;
+    }
+    #row1 .size-avis {
+        margin-top: -25px;
+        padding-right: 0px;
+    }
+    #row1 .avis {
+        padding-top: 10px;
+    }
+    .rank_img_right_first, .rank_number_first, .rank_number, .rank_img_right {
+        width: 16%;
+    }
+    .size-avis {
+        padding-left: 0;
+        width: 55%;
+        padding-right: 0;
+        margin-top: -10px;
+    } 
     .btn {
         display: none;
     }
@@ -1567,118 +1721,129 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     .btn-mobile {
         display: block;
         margin-top: 48px;
-        margin-left: 30px;
+        margin-left: 30px;        
+    }
+
+    .table_baner {        
+        padding-left: 2%;
     }
 
     #menuToggle ul {
         margin-top: 2px;
-    }
-    .logo-td {
-      
-        width: 70%;
-    }
-    .logo {
-        width: auto;
+    }   
+    #footer_logo .footer_best {
+        font-size: 10px;
     }
 }
 
 @media only screen and (max-width: 376px) {
    
-    .slogan_header p {
-        font-size: 7px;
+    .rank_img_right_first, .rank_number_first, .rank_number, .rank_img_right {
+        width: 15%;
     }
-    .rank_img_right {
-        margin-top: -25px;
-        margin-left: 8%;
+    .rank_img_right_first {
+        margin-top: -60px;
     }
-    .rank_img_right_first{
-        margin-top: -45px;
-        margin-left: 8%;
+    .rank_number_first {       
+        margin-left: 8.5%;
     }
-    .logo-td {
-        width: 80%;
+    .rank_number {       
+        margin-left: 8.5%;
     }
-    .size-avis {
-        width: 40%;
-        padding: 0;
+    #row1 .btn-mobile {
+        margin-top: 25px;
+        margin-left: 25px;
     }
-    .rank_left {      
-        font-size: 7px;
+    .btn-mobile {        
+        margin-top: 52px;
+        margin-left: 25px;
     }
-    .TOP_RATE li .topmiddle {
-        margin-top: 30px;
-    }
-    .btn-mobile {
-        display: block;
-        margin-top: 42px;
-    }
-    .logo-td {
-        margin-left: 2px;
-        margin-bottom: 10px;
-    }
-
-    .avis {
-        margin-bottom: 10px;
-    }
-
-    .avis li {
-        line-height: 11px;
-    }
-    .TOP_BAR_LANDING .logo {
-        padding: 10px 50px 0px;
+    #row2 .avis p:first-child, #row3 .avis p:first-child, #row4 .avis p:first-child, #row5 .avis p:first-child, #row6 .avis p:first-child, #row7 .avis p:first-child, #row8 .avis p:first-child, #row9 .avis p:first-child, #row10 .avis p:first-child {
+        padding-top: 15px;
     }
     .logo {
-        width: auto;
+        width: 225px;
     }
-    .avis li span {
+}
+
+@media only screen and (max-width: 355px){
+    .slogan_header p {
+        width: 70%;
+        margin-top: -35px;
+        font-size: 8px;
+        line-height: 10px;
+    }
+    .slogan_header h2 {
         font-size: 10px;
     }
-
-    .btn {
-        display: none;
+    .slogan_header h1 {
+        font-size: 15px;
+        line-height: 18px;
     }
-
-    .goSite p {
-        display: none;
+    .TOP_RATE .title_special {
+        padding: 20px 0 10px 0;
+        font-size: 10px;
     }
-
-  
-
-    #menuToggle ul {
-        margin-top: 2px;
+    .TOP_RATE li a {
+        margin-bottom: 15px;
+        margin-top: 0px;
     }
-}
-
-@media only screen and (max-width: 320px){
-    .rank_img_right {
-        margin-top: -29px;
-        margin-left: 8%;
+    .text p {
+        font-size: 9px;
     }
-    .rank_img_right_first{
-        margin-top: -47px;
-        margin-left: 8%;
+    .landing-page .visit {
+        padding: 4px 4px;
+        font-size: 10px;
     }
-    .size-logo {
-        width: 34%;
+    .li_special .open_link._link {
+        padding-top: 15px;
+    }
+    .TOP_RATE .li_special {       
+        height: 180px;
+    }
+    .TOP_RATE li {
+       height: 150px;
+    }
+    .SITE_LIST h2 {
+        font-size: 14px;
+    }
+    .rank_left, .rank_img img {
+        margin-top: 0;
+        width: 255%;
+    }
+    .size-logo {       
         margin-top: -2px;
-        background-color: transparent;
+    }
+    .avis p:first-child {
+        font-size: 10px;
+    }
+    .avis p {
+        font-size: 8px;
+    }
+    .size-avis {
+        width: 50%;
+    }
+    .rank_img_right_first, .rank_number_first, .rank_number, .rank_img_right {
+        width: 19%;
+    }
+    .rank_img_right_first {
+        margin-top: -56px;
+    }
+    .rank_number_first {
+        margin-top: -60px;
+    }
+    .rank_img_right {
+        margin-top: -37px;
+    }
+    .rank_10 {
+        margin-left: 9%;
+    }
+    .box1 {
+        padding-left: 0;
     }
     .rank_left {
-        font-size: 6px;
+        font-size: 7px;
     }
-    .image_baner {
-        width: 160%;
-    }
+    
 }
-td {
-    display: block;
-}
-.vector {
-    position: absolute;
-width: 255.5px;
-height: 34.5px;
-left: 100px;
-top: 1072px;
 
-background: #FF0000;
-}

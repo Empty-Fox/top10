@@ -15,6 +15,348 @@
     <script type="text/javascript" src="scripts/mobile_randomImages.js"></script>
     <script type="text/javascript" async="" src="scripts/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+
+
+    <style>
+        .slideshow {
+            position: absolute;
+            width: 100vw;           
+            overflow: hidden;
+            min-height: 500px;
+            margin-top: -30px;
+            z-index: -1;
+        }
+        .slideshow-image {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          background: no-repeat 50% 50%;
+          background-size: cover;
+          -webkit-animation-name: kenburns;
+                  animation-name: kenburns;
+          -webkit-animation-timing-function: linear;
+                  animation-timing-function: linear;
+          -webkit-animation-iteration-count: infinite;
+                  animation-iteration-count: infinite;
+          -webkit-animation-duration: 20s;
+                  animation-duration: 20s;
+          opacity: 1;
+          -webkit-transform: scale(1.2);
+                  transform: scale(1.2);
+        }
+        .slideshow-image:nth-child(1) {
+          -webkit-animation-name: kenburns-1;
+                  animation-name: kenburns-1;
+          z-index: 5;
+        }
+        .slideshow-image:nth-child(2) {
+          -webkit-animation-name: kenburns-2;
+                  animation-name: kenburns-2;
+          z-index: 4;
+        }
+        .slideshow-image:nth-child(3) {
+          -webkit-animation-name: kenburns-3;
+                  animation-name: kenburns-3;
+          z-index: 3;
+        }
+        .slideshow-image:nth-child(4) {
+          -webkit-animation-name: kenburns-4;
+                  animation-name: kenburns-4;
+          z-index: 2;
+        }
+        .slideshow-image:nth-child(5) {
+          -webkit-animation-name: kenburns-5;
+                  animation-name: kenburns-5;
+          z-index: 1;
+        }
+        .slideshow-image:nth-child(6) {
+            -webkit-animation-name: kenburns-6;
+                    animation-name: kenburns-6;
+            z-index: 0;
+          }
+        
+        @-webkit-keyframes kenburns-1 {
+          0% {
+            opacity: 1;
+            -webkit-transform: scale(1.2);
+                    transform: scale(1.2);
+          }
+          5% {
+            opacity: 1;
+          }
+          15% {
+            opacity: 1;
+          }
+          25% {
+            opacity: 0;
+            -webkit-transform: scale(1);
+                    transform: scale(1);
+          }
+          100% {
+            opacity: 0;
+            -webkit-transform: scale(1.2);
+                    transform: scale(1.2);
+          }
+          95% {
+            opacity: 0;
+            -webkit-transform: scale(1.24);
+                    transform: scale(1.24);
+          }
+          100% {
+            opacity: 1;
+          }
+        }
+        
+        @keyframes kenburns-1 {
+          0% {
+            opacity: 1;
+            -webkit-transform: scale(1.2);
+                    transform: scale(1.2);
+          }
+          5% {
+            opacity: 1;
+          }
+          15% {
+            opacity: 1;
+          }
+          25% {
+            opacity: 0;
+            -webkit-transform: scale(1);
+                    transform: scale(1);
+          }
+          100% {
+            opacity: 0;
+            -webkit-transform: scale(1.2);
+                    transform: scale(1.2);
+          }
+          95% {
+            opacity: 0;
+            -webkit-transform: scale(1.24);
+                    transform: scale(1.24);
+          }
+          100% {
+            opacity: 1;
+          }
+        }
+        @-webkit-keyframes kenburns-2 {
+          15% {
+            opacity: 1;
+            -webkit-transform: scale(1.2);
+                    transform: scale(1.2);
+          }
+          25% {
+            opacity: 1;
+          }
+          35% {
+            opacity: 1;
+          }
+          45% {
+            opacity: 0;
+            -webkit-transform: scale(1);
+                    transform: scale(1);
+          }
+          100% {
+            opacity: 0;
+            -webkit-transform: scale(1.2);
+                    transform: scale(1.2);
+          }
+        }
+        @keyframes kenburns-2 {
+          15% {
+            opacity: 1;
+            -webkit-transform: scale(1.2);
+                    transform: scale(1.2);
+          }
+          25% {
+            opacity: 1;
+          }
+          35% {
+            opacity: 1;
+          }
+          45% {
+            opacity: 0;
+            -webkit-transform: scale(1);
+                    transform: scale(1);
+          }
+          100% {
+            opacity: 0;
+            -webkit-transform: scale(1.2);
+                    transform: scale(1.2);
+          }
+        }
+        @-webkit-keyframes kenburns-3 {
+          35% {
+            opacity: 1;
+            -webkit-transform: scale(1.2);
+                    transform: scale(1.2);
+          }
+          45% {
+            opacity: 1;
+          }
+          55% {
+            opacity: 1;
+          }
+          65% {
+            opacity: 0;
+            -webkit-transform: scale(1);
+                    transform: scale(1);
+          }
+          100% {
+            opacity: 0;
+            -webkit-transform: scale(1.2);
+                    transform: scale(1.2);
+          }
+        }
+        @keyframes kenburns-3 {
+          35% {
+            opacity: 1;
+            -webkit-transform: scale(1.2);
+                    transform: scale(1.2);
+          }
+          45% {
+            opacity: 1;
+          }
+          55% {
+            opacity: 1;
+          }
+          65% {
+            opacity: 0;
+            -webkit-transform: scale(1);
+                    transform: scale(1);
+          }
+          100% {
+            opacity: 0;
+            -webkit-transform: scale(1.2);
+                    transform: scale(1.2);
+          }
+        }
+        @-webkit-keyframes kenburns-4 {
+          55% {
+            opacity: 1;
+            -webkit-transform: scale(1.2);
+                    transform: scale(1.2);
+          }
+          65% {
+            opacity: 1;
+          }
+          75% {
+            opacity: 1;
+          }
+          85% {
+            opacity: 0;
+            -webkit-transform: scale(1);
+                    transform: scale(1);
+          }
+          100% {
+            opacity: 0;
+            -webkit-transform: scale(1.2);
+                    transform: scale(1.2);
+          }
+        }
+        @keyframes kenburns-4 {
+          55% {
+            opacity: 1;
+            -webkit-transform: scale(1.2);
+                    transform: scale(1.2);
+          }
+          65% {
+            opacity: 1;
+          }
+          75% {
+            opacity: 1;
+          }
+          85% {
+            opacity: 0;
+            -webkit-transform: scale(1);
+                    transform: scale(1);
+          }
+          100% {
+            opacity: 0;
+            -webkit-transform: scale(1.2);
+                    transform: scale(1.2);
+          }
+        }
+        @-webkit-keyframes kenburns-5 {
+          65% {
+            opacity: 1;
+            -webkit-transform: scale(1.2);
+                    transform: scale(1.2);
+          }
+          75% {
+            opacity: 1;
+          }
+          85% {
+            opacity: 1;
+          }
+          100% {
+            opacity: 0;
+            -webkit-transform: scale(1);
+                    transform: scale(1);
+          }
+        }
+        @keyframes kenburns-5 {
+          65% {
+            opacity: 1;
+            -webkit-transform: scale(1.2);
+                    transform: scale(1.2);
+          }
+          75% {
+            opacity: 1;
+          }
+          85% {
+            opacity: 1;
+          }
+          100% {
+            opacity: 0;
+            -webkit-transform: scale(1);
+                    transform: scale(1);
+          }
+        }
+        @-webkit-keyframes kenburns-6 {
+            75% {
+              opacity: 1;
+              -webkit-transform: scale(1.2);
+                      transform: scale(1.2);
+            }
+            85% {
+              opacity: 1;
+            }
+            95% {
+              opacity: 1;
+            }
+            100% {
+              opacity: 0;
+              -webkit-transform: scale(1);
+                      transform: scale(1);
+            }
+          }
+          @keyframes kenburns-6 {
+            75% {
+              opacity: 1;
+              -webkit-transform: scale(1.2);
+                      transform: scale(1.2);
+            }
+            85% {
+              opacity: 1;
+            }
+            95% {
+              opacity: 1;
+            }
+            100% {
+              opacity: 0;
+              -webkit-transform: scale(1);
+                      transform: scale(1);
+            }
+          }
+ 
+
+        
+        </style>
+
+
+        
 </head>
 
 <body class="landing-page DESIGN_v2 ">
@@ -29,18 +371,27 @@
             <div class="L_slogan"> Der große Dating Vergleich </div>
         </div>
     </div>
-    <div class="midline header_bg">
-        <div>
-            <div class="slogan_header">
-                <h1><b class="deco">Die TOP 10 </b> der besten </h1>
-                <h2>Casual Dating Portale <b class="deco">2020</b></h2>
-                <br><br>
-                <p>Casual Dating ist bei Frauen und Männern beliebter denn je. Doch welche Portale sind wirklich
-                    empfehlenswert und welche sollte man lieber meiden? Verschwende nicht Deine Zeit und Energie aber
-                    vor allem nicht Dein Geld für Fakes und Abzocke. Hier sind die TOP 10 der besten Casual Dating
-                    Portale! </p>
-            </div>
+    <div class="midline ">
+        <div class="slideshow ">
+            <div class="slideshow-image " style="background-image: url('images/1.jpg')"></div>
+            <div class="slideshow-image" style="background-image: url('images/1.jpg')"></div>            
+            <div class="slideshow-image" style="background-image: url('images/2.jpg')"></div>
+            <div class="slideshow-image" style="background-image: url('images/2.jpg')"></div>
+            <div class="slideshow-image" style="background-image: url('images/3.jpg')"></div>
+            <div class="slideshow-image" style="background-image: url('images/3.jpg')"></div>
         </div>
+          
+        <div class="slogan_header">
+            <h1><b class="deco">Die TOP 10 </b> der besten </h1>
+            <h2>Casual Dating Portale <b class="deco">2020</b></h2>
+            <br><br>
+            <p>Casual Dating ist bei Frauen und Männern beliebter denn je. Doch welche Portale sind wirklich
+                empfehlenswert und welche sollte man lieber meiden? Verschwende nicht Deine Zeit und Energie aber
+                vor allem nicht Dein Geld für Fakes und Abzocke. Hier sind die TOP 10 der besten Casual Dating
+                Portale! 
+            </p>
+        </div>
+        
     </div>
     <div class="midline TOP_RATE">
         <div class="box1">
